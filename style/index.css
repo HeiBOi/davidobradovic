@@ -136,9 +136,10 @@ html {
     margin-right: 15px;
     padding: 15px 0;
     height: 40px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -182,6 +183,9 @@ html {
 @media (max-width: 600px) {
     .main header nav {
         display: none;
+    }
+    .pricesButtonMobile {
+        display: flex;
     }
 }
 
